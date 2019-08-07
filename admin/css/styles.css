@@ -1,0 +1,425 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+/* скрываем чекбоксы и блоки с содержанием */
+
+.hide,
+.hide+label~div {
+    display: none;
+}
+
+
+/* вид текста label */
+
+.hide+label,
+.hide:checked+label {
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    border-bottom: 1px dotted green;
+}
+
+
+/* вид текста label при активном переключателе */
+
+.hide:checked+label {
+    color: red;
+    border-bottom: 0;
+}
+
+
+/* когда чекбокс активен показываем блоки с содержанием  */
+
+.hide:checked+label+div {
+    display: block;
+
+
+}
+
+
+/* === Remove input autofocus webkit === */
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #737373;
+    color: white;
+}
+
+.p {
+    color: #000000;
+    background-image: linear-gradient(to right, rgb(204, 202, 202) 1%, rgb(204, 202, 202) 1%, rgb(204, 202, 202) 1%, rgb(255, 255, 255, 0) 60%);
+    border-radius: 1px;
+    font-family: "AREA";
+    font-size: 17px;
+    text-align: center;
+}
+
+.vivod4 {
+    -webkit-column-count: 1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 1;
+    /* Firefox */
+    column-count: 1;
+    padding: 6px;
+    width: 720px;
+    background: Lavender;
+    margin-left: 25px;
+
+}
+
+.calendar {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+
+    padding: 5px;
+    background: #f4f4f4;
+    position: relative;
+}
+
+
+.calendar5 {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+    padding: 6px;
+
+    position: relative;
+}
+
+.calendar2 {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+
+
+    background: #f4f4f4;
+    position: relative;
+}
+
+.calendar3 {
+    background: #f4f4f4;
+    padding: 1px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.p:hover {
+    color: #6b6a6a;
+}
+
+.navbar-brand2 {
+    font-size: 13px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+.pn {
+    color: #2B82F9;
+    font-family: "AREA";
+    font-size: 6px;
+
+}
+
+
+.zapis {
+    margin: 1px;
+    padding: 20px;
+    font-size: 15px;
+    color: #737373;
+}
+
+#msg {
+
+    margin: 1px;
+    padding: 20px;
+    font-size: 15px;
+    color: #737373;
+}
+
+.a {
+    color: #fff;
+    background: rgb(212, 75, 56);
+    width: 49px;
+    height: 23px;
+}
+
+.a:hover {
+    opacity: 0.6;
+    background: red;
+}
+
+.b {
+    color: #fff;
+    background: rgb(255, 165, 0);
+    width: 49px;
+    height: 23px;
+
+}
+
+.b:hover {
+    opacity: 0.6;
+    background: rgb(255, 165, 0);
+}
+
+.c {
+    color: #fff;
+    background: rgb(28, 184, 65);
+    width: 49px;
+    height: 23px;
+}
+
+.c:hover {
+    opacity: 0.6;
+    background: green;
+}
+
+.d {
+    color: #fff;
+    background: rgb(128, 0, 128);
+    width: 49px;
+    height: 23px;
+}
+
+.d:hover {
+    opacity: 0.6;
+    background: rgb(128, 0, 128);
+}
+
+.e {
+    color: #fff;
+    background: rgb(192, 192, 192);
+    width: 49px;
+    height: 23px;
+}
+
+.e:hover {
+    opacity: 0.6;
+    background: rgb(192, 192, 192);
+}
+
+
+.h {
+    color: #fff;
+    background: rgb(225, 225, 225);
+    width: 49px;
+    height: 23px;
+    color: black;
+}
+
+.h:hover {
+    background: #b5b5b5;
+    color: #1c1c1c;
+}
+
+.s {
+    color: #fff;
+    background: rgb(242, 242, 242);
+    width: 49px;
+    height: 23px;
+}
+
+details>a:hover {
+    background: #9d9d9d;
+}
+
+details>summary {
+    cursor: pointer;
+    background: #e7e7e7;
+    margin: 1px;
+    padding: 20px;
+    font-size: 15px;
+    color: #737373;
+}
+
+details>summary:hover {
+    background: Lavender;
+}
+
+details>a:hover {
+    background: #9d9d9d;
+}
+
+details>a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    margin: 2px 2px 2px 20px;
+    padding: 6px;
+    background: #9d9d9d;
+
+    font-size: 14px;
+}
+
+/* Кнопки для загрузки дней рождениев === */
+
+.input-file {
+    position: relative;
+    margin: 0 20px 0
+}
+
+/* Remove margin, it is just for stackoverflow viewing */
+.input-file .input-group-addon {
+    border: 0px;
+    padding: 0px;
+}
+
+.input-file .input-group-addon .btn {
+    border-radius: 0 4px 4px 0
+}
+
+.input-file .input-group-addon input {
+    cursor: pointer;
+    position: absolute;
+    width: 72px;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    background-color: transparent;
+    color: transparent;
+}
+
+/* для уроков === */
+
+.sortable-table td {
+
+    cursor: move;
+}
+
+/* грид настройка отображения */
+
+#grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 348px));
+    grid-gap: 10px;
+}
+
+#grid>div {
+    padding-left: .1em;
+
+}
+
+@media screen and (max-width: 406px) {
+    #grid {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, 294px);
+
+    }
+
+    #grid>div {
+        padding: .5em;
+    }
+
+
+    .a {
+        color: #fff;
+        background: rgb(212, 75, 56);
+        width: 40px;
+        height: 23px;
+    }
+
+    .a:hover {
+        opacity: 0.6;
+        background: red;
+    }
+
+    .b {
+        color: #fff;
+        background: rgb(255, 165, 0);
+        width: 40px;
+        height: 23px;
+
+    }
+
+    .b:hover {
+        opacity: 0.6;
+        background: rgb(255, 165, 0);
+    }
+
+    .c {
+        color: #fff;
+        background: rgb(28, 184, 65);
+        width: 40px;
+        height: 23px;
+    }
+
+    .c:hover {
+        opacity: 0.6;
+        background: green;
+    }
+
+    .d {
+        color: #fff;
+        background: rgb(128, 0, 128);
+        width: 40px;
+        height: 23px;
+    }
+
+    .d:hover {
+        opacity: 0.6;
+        background: rgb(128, 0, 128);
+    }
+
+    .e {
+        color: #fff;
+        background: rgb(192, 192, 192);
+        width: 40px;
+        height: 23px;
+    }
+
+    .e:hover {
+        opacity: 0.6;
+        background: rgb(192, 192, 192);
+    }
+
+
+    .h {
+        color: #fff;
+        background: rgb(225, 225, 225);
+        width: 40px;
+        height: 23px;
+        color: black;
+    }
+
+}
+
+;

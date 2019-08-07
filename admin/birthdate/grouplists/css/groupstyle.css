@@ -1,0 +1,20 @@
+.form-check label input {
+    display: none;
+    text-align: center;
+    align-content: center;
+    align: center;
+}
+
+.form-check input {
+    display: none;
+}
+
+.outer {
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.ulstyle:hover {
+    cursor: move;
+    background-color: rgba(140, 140, 140, 1);
+}
